@@ -5,7 +5,7 @@ import shutil
 import uuid
 from typing import Optional
 
-from .state import AgentState
+from agent_state import AgentState
 
 
 class CodeExecutor:

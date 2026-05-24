@@ -3,6 +3,7 @@ from __future__ import annotations
 from functools import partial
 from typing import Any
 
+from agent_state import AgentState
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END, StateGraph
 
@@ -12,7 +13,7 @@ from .code_integrator import CodeIntegratorAgent
 from .config import load_llm_config
 from .coder import CoderAgent
 from .memory_store import TaskDescriptor, TaskMemoryStore, compute_fingerprint, make_json_safe
-from .state import AgentState, task_planning_node
+from .state import task_planning_node
 
 
 def build_task_descriptor_from_state(state: AgentState) -> TaskDescriptor:

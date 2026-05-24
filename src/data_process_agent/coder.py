@@ -7,7 +7,9 @@ from langchain_core.output_parsers import PydanticOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 
-from .state import AgentState, CoderOutput, FileInfo
+from agent_state import AgentState
+
+from .models import CoderOutput, FileInfo
 
 
 class CoderAgent:

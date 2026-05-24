@@ -17,6 +17,7 @@ dependencies = [
 
 [tool.setuptools]
 package-dir = {"" = "src"}
+py-modules = ["agent_state"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
