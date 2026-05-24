@@ -24,6 +24,8 @@
 
 因此，这份实现更适合作为“数据处理 Agent 工作流模板”来参考和扩展。
 
+![通过 DataProcesser Agent 你可以学到什么](./docs/images/data-process-agent-learning-map.png)
+
 ## Teaching Goals
 
 - 演示 `StateGraph` 如何组织多节点流程
