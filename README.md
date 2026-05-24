@@ -37,6 +37,8 @@
 
 项目的主工作流定义在 [workflow.py](./src/data_process_agent/workflow.py) 中，核心链路如下：
 
+![DataProcesser Agent 工作流](./docs/images/data-process-agent-workflow.png)
+
 1. `fast_path_router`
    先根据用户需求、数据目录、输出目录等信息生成 fingerprint，检查 memory 里有没有近似已完成任务。
 
